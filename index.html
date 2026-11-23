@@ -127,6 +127,21 @@ button{font:inherit;cursor:pointer}
 .diagram .h{background:var(--panel2);border-radius:8px;padding:6px 8px}
 .diagram .h b{display:block;font-size:12px;color:var(--muted);margin-bottom:2px}
 .sheet p,.sheet li{font-size:14px;line-height:1.5}
+/* phones: West and East share a row so the middle (bidding box, trick) gets the full width,
+   face-down hands lie flat, and a hand of up to 13 cards squeezes to fit the screen */
+@media (max-width:600px){
+  .app{padding:8px;gap:12px}
+  .table{grid-template-columns:minmax(0,1fr) minmax(0,1fr);grid-template-rows:auto auto 1fr auto;
+    grid-template-areas:"north north" "west east" "center center" "south south";min-height:0;border-radius:20px;gap:8px}
+  .hand.stackv{flex-direction:row;align-items:flex-end}
+  .hand.stackv .card+.card{margin-top:0;margin-left:-34px}
+  .hand.row{width:100%;justify-content:center}
+  .hand.row .card+.card{margin-left:0}
+  .hand.row .card:not(:last-child){width:auto;flex:0 1 30px;min-width:14px}
+  .hand.row .card:not(:last-child) .pip{display:none}
+  .card .ix{left:3px}
+  .hand.row .card .ix{font-size:15px;letter-spacing:-1.5px}
+}
 </style>
 </head>
 <body>
