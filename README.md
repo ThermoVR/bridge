@@ -58,3 +58,10 @@ use conventions like Stayman, transfers or Blackwood, so keep your own bids natu
 | `manifest.webmanifest`, `icon-*.png` | Name and icons for the home-screen app |
 
 No build step: any static web host works, and this one is served straight from the repo by GitHub Pages.
+
+<details>
+<summary>♠ ♥ ♦ ♣</summary>
+
+Love you, Grandma! ♥
+
+</details>
