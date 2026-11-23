@@ -5,7 +5,13 @@ anytime, even without internet. You play South; the computer plays your partner 
 
 **▶ Play it here: [thermovr.github.io/bridge](https://thermovr.github.io/bridge/)**
 
-![A new deal: your hand at the bottom, the bidding box in the middle, score and controls on the right](docs/screenshot.png)
+![Playing a hand on a computer: partner's cards face up at the top, the trick in the middle, score and controls on the right](docs/desktop.png)
+
+It fits any screen: computer, tablet or phone.
+
+| Tablet | Phone: playing | Phone: bidding |
+|:---:|:---:|:---:|
+| <img src="docs/tablet.png" width="260" alt="Defending a hand on a tablet"> | <img src="docs/phone.png" width="200" alt="Playing from partner's hand on a phone"> | <img src="docs/phone-bidding.png" width="200" alt="The bidding box on a phone, with a suggested bid"> |
 
 > **About this project.** Most of the code was written with AI assistance. I don't plan to keep it updated
 > beyond what my grandma needs, but suggestions and bug reports are welcome in [Issues](../../issues).
