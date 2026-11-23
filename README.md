@@ -65,3 +65,7 @@ No build step: any static web host works, and this one is served straight from t
 Love you, Grandma! ♥
 
 </details>
+
+## License
+
+MIT. See [LICENSE](LICENSE).
